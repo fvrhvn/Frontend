@@ -1,0 +1,63 @@
+.header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: #3E2723;
+    }
+
+    .body{
+        color: #F9F5EB;
+        background-color:#F9F5EB;
+        margin: 0;
+        padding: 0%;
+        text-align: center;
+    }
+   /* product area*/
+    .products{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #2E2E2E ;
+        text-align: center;
+    }
+
+    .product-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .product{
+        background-color: #fff;
+        border-bottom: 1px solid #3E2723;
+        border-radius: 10px;
+        padding:  1.5rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .product h3 {
+        font-family: 'Montserrat', sans-serif;
+        color: #3E2723;
+        margin-bottom: 0.5rem;
+    }
+
+    .button{
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        padding: 0.6rem 1rem
+    }
+    
+    .cart-info {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;          /* space between icon and text */
+        font-weight: 600;
+      }
+      
+      .cart-info i {
+        font-size: 1.3rem;     /* slightly bigger for visibility */
+        color: #3E2723;        /* matches your dark brown theme */
+      }
+      
+
+
+    
+    
